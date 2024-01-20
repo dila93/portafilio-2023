@@ -1,9 +1,8 @@
 # Personal Page 2024
 
 
-### webpage: **[sebastianardila.com ](https://sebastianardila.com/)**
+# **[sebastianardila.com/](https://sebastianardila.com/)**
 
-thanks for watching!
 
 
 ## Professional Social Networks
