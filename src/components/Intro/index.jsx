@@ -1,11 +1,11 @@
 import {Header} from "../Common/Title";
 import styled from "styled-components";
-
+import sebasImg from "../../img/header/sebas.png";
 const Intro = () => {
     return (
         <Container>
             <Greetings>
-                <Picture src="/header/sebas.png">
+                <Picture src={sebasImg}>
                 </Picture>
                 <Text>
                     <Header color="#4eb3dea3">Hello I'm</Header>

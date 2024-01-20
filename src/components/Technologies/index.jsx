@@ -1,12 +1,12 @@
 import styled from "styled-components";
 import Tag from "../Common/Tag";
 
-import { ReactComponent as ReactIcon } from '../../Icons/react.svg';
-import { ReactComponent as JavascriptIcon } from '../../Icons/javascript.svg';
-import { ReactComponent as HTML5Icon } from '../../Icons/html5.svg';
-import { ReactComponent as CSS3Icon } from '../../Icons/css3.svg';
-import { ReactComponent as NodeIcon } from '../../Icons/node.svg';
-import { ReactComponent as TypescriptIcon } from '../../Icons/typescript.svg';
+import { ReactComponent as ReactIcon } from '../../img/Icons/react.svg'
+import { ReactComponent as JavascriptIcon } from '../../img/Icons/javascript.svg';
+import { ReactComponent as HTML5Icon } from '../../img/Icons/html5.svg';
+import { ReactComponent as CSS3Icon } from '../../img/Icons/css3.svg';
+import { ReactComponent as NodeIcon } from '../../img/Icons/node.svg';
+import { ReactComponent as TypescriptIcon } from '../../img/Icons/typescript.svg';
 import Title from "../Common/Title";
 
 
