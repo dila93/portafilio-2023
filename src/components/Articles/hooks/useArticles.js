@@ -7,10 +7,9 @@ const useArticles = () => {
         try {
             const response = await fetch(url+user);
             const articlesResponse = await response.json();
-            console.log("articlesResponse: ", articlesResponse);
             setArticles(articlesResponse.items);
           } catch(error) {
-            console.log("Failed to fetch medium rss", error);
+            console.error("Failed to fetch medium rss", error);
           }
     }
 
