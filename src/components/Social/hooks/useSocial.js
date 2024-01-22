@@ -1,8 +1,8 @@
-import linkedinImg from "../../../img/social/linkedin.png";
-import mediumImg from "../../../img/social/medium.png";
-import githubImg from "../../../img/social/github.png";
-import hackerrankImg from "../../../img/social/hackerrank.png";
-import sebastianardilaImg from "../../../img/social/sebastianardila.png";
+import linkedinImg from "../../../img/social/linkedin.jpg";
+import mediumImg from "../../../img/social/medium.jpg";
+import githubImg from "../../../img/social/github.jpg";
+import hackerrankImg from "../../../img/social/hackerrank.jpg";
+import sebastianardilaImg from "../../../img/social/sebastianardila.jpg";
 
 const useSocial = () => {
 
