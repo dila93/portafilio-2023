@@ -8,12 +8,9 @@ import { ReactComponent as CSS3Icon } from '../../img/Icons/css3.svg';
 import { ReactComponent as NodeIcon } from '../../img/Icons/node.svg';
 import { ReactComponent as TypescriptIcon } from '../../img/Icons/typescript.svg';
 import Title from "../Common/Title";
+import { getYearsOfExperience } from "../Common/util";
 
 
-const getYearsOfExperience = (date) => {
-    const currentDate = new Date();
-    return currentDate.getFullYear() - date.getFullYear();
-}
 
 const Technologies = () => {
     return(
@@ -24,32 +21,32 @@ const Technologies = () => {
             <Ecosystem>
                 <TechnologyContainer>
                     <ReactIcon fill="#149eca" width="40px" height="40px"/>
-                    <Tag borderColor="lightgray" color="dimgray">React JS</Tag>
+                    <Tag bordercolor="lightgray" color="dimgray">React JS</Tag>
                     <ExperienceText>{getYearsOfExperience(new Date(2019, 0, 1))} Years</ExperienceText>
                 </TechnologyContainer>
                 <TechnologyContainer>
                     <JavascriptIcon fill="#f7e02a" width="40px" height="40px"/>
-                    <Tag borderColor="lightgray" color="dimgray">Javascript</Tag>
+                    <Tag bordercolor="lightgray" color="dimgray">Javascript</Tag>
                     <ExperienceText>{getYearsOfExperience(new Date(2017, 0, 1))} Years</ExperienceText>
                 </TechnologyContainer>
                 <TechnologyContainer>
                     <HTML5Icon fill="#e6532f" width="40px" height="40px"/>
-                    <Tag borderColor="lightgray" color="dimgray">HTML</Tag>
+                    <Tag bordercolor="lightgray" color="dimgray">HTML</Tag>
                     <ExperienceText>{getYearsOfExperience(new Date(2017, 0, 1))} Years</ExperienceText>
                 </TechnologyContainer>
                 <TechnologyContainer>
                     <CSS3Icon fill="#237abe" width="40px" height="40px"/>
-                    <Tag borderColor="lightgray" color="dimgray">CSS</Tag>
+                    <Tag bordercolor="lightgray" color="dimgray">CSS</Tag>
                     <ExperienceText>{getYearsOfExperience(new Date(2017, 0, 1))} Years</ExperienceText>
                 </TechnologyContainer>
                 <TechnologyContainer>
                     <NodeIcon fill="#90ca51" width="40px" height="40px"/>
-                    <Tag borderColor="lightgray" color="dimgray">Node JS</Tag>
+                    <Tag bordercolor="lightgray" color="dimgray">Node JS</Tag>
                     <ExperienceText>{getYearsOfExperience(new Date(2020, 0, 1))} Years</ExperienceText>
                 </TechnologyContainer>
                 <TechnologyContainer>
                     <TypescriptIcon fill="#387cc8" width="40px" height="40px"/>
-                    <Tag borderColor="lightgray" color="dimgray">Typescript</Tag>
+                    <Tag bordercolor="lightgray" color="dimgray">Typescript</Tag>
                     <ExperienceText>{getYearsOfExperience(new Date(2020, 0, 1))} Years</ExperienceText>
                 </TechnologyContainer>
             </Ecosystem>
